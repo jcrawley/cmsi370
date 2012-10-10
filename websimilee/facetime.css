@@ -57,12 +57,24 @@ color : blue;
 	opacity: 0.7;
 	overflow: auto;
 }
-.circle{width:100px;
-	height:10px;
-	width: 10px;
-	border-radius:50px;
-	color:white;
-	text-align:center;
-	background:red
-	left : 10px;
-	}
+.circle{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px; 
+  /* width and height can be anything, as long as they're equal */
+
+}
+
+#red{
+	background-color: red;
+	left: 5%;
+	top: 10px;
+}
+#yellow{
+	background-color: yellow;
+	left:7%;
+}
+#green{
+	background-color: green;
+	left: 9%;
+}
