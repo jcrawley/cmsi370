@@ -9,6 +9,7 @@
 body{
 	background-image: url('background.png');
 	background-color: black;
+	
 }
 
 
@@ -20,7 +21,7 @@ padding-right: 0px;
 }
 
 div{
-color : blue;
+color : white;
 }
 .rectangle {
 	width: 100%;
@@ -33,10 +34,10 @@ color : blue;
 #contacts{
 	position: absolute;
 	top: 17px;
-	right: 20px;
-	width: 50%;
+	right: 8px;
+	width: 59%;
 	height: 100%;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 #navigation{
@@ -89,3 +90,27 @@ color : blue;
 	background-color: green;
 	left: 9%;
 }
+.contact{
+	width: 20px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	list-style: none;
+}
+
+#all{
+text-align: center;
+}
+.tb5 {
+	background: url(searchbar.png) no-repeat top left;
+	height: 60px;
+	width: 270px;
+	
+}
+.tb5a {
+	border: 0;
+	width:200px;
+	margin-top:3px;
+	left: 10%;
+}
+
