@@ -64,6 +64,17 @@ color : blue;
   /* width and height can be anything, as long as they're equal */
 
 }
+/*#exit li {
+        list-style: none;
+        display: block;
+        float: left;
+        margin: 1em;
+}*/
+#exit li{
+	float: left;
+	list-style-type: none;
+	padding-right: 0px;
+}
 
 #red{
 	background-color: red;
