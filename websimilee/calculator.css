@@ -1,5 +1,5 @@
 .button{
-	width : 42px;
+	width : 52px;
 	background: #a7cfdf; /* Old browsers */
 	background: -moz-linear-gradient(top,  #a7cfdf 0%, #23538a 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7cfdf), color-stop(100%,#23538a)); /* Chrome,Safari4+ */
@@ -15,6 +15,9 @@
 	border-radius: 5px 10px 5px 10px / 10px 5px 10px 5px;
 	border-radius: 5px;
 	border-radius: 5px 10px / 10px;
+	position: fixed;
+	height: 30px;
+	
 }
 
 .container{
@@ -23,8 +26,89 @@
 	background: black;
 }
 
-#c{
-	position: fixed;
-	left: 1px;
-	top: 20px;
+#one{
+	left: 15px;
+	top: 380px;
+}
+#four{
+	top: 315px;
+	left: 15px;
+}
+#seven{
+	top: 250px;
+	left: 15px;
+}
+
+#c{	
+	left: 15px;
+	top: 185px;
+}
+#mc{
+	left: 15px;
+	top: 120px;
+}
+#dot{
+	left: 150px;
+	top: 400px;
+}
+#minus{
+	left: 255px;
+	top: 250px;
+}
+#plus{
+	left: 255px;
+	top: 315px;
+}
+
+#two{
+	top:380px;
+	left:95px;
+}
+#five{
+	left:95px;
+	top: 315px;
+}
+#eight{
+	left: 95px;
+	top: 250px;
+}
+#sign{
+	left: 95px;
+	top: 185px;
+}
+#mplus{
+	left: 95px;
+	top: 120px;
+}
+#mminus{
+	left: 175px;
+	top: 120px;
+}
+#div{
+	left: 175px;
+	top: 185px;
+}
+#nine{
+	left:175px;
+	top: 250px;
+}
+#six{
+	left: 175px;
+	top: 315px;
+}
+#three{
+	top: 380px;
+	left: 175px;
+}
+#dot{
+	top: 435px;
+	left: 175px;
+}
+#mult{
+	left: 255px;
+	top:185px;
+}
+#mr{
+	top:120px;
+	left:255px;
 }
