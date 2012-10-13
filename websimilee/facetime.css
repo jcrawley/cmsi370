@@ -9,6 +9,8 @@
 body{
 	background-image: url('background.png');
 	background-color: black;
+	height: 75%;
+	width: 50%;
 	
 }
 
@@ -59,9 +61,11 @@ color : white;
 	overflow: auto;
 }
 .circle{
+  position: fixed;
   border-radius: 50%;
   width: 10px;
   height: 10px; 
+  top: 10px;
   /* width and height can be anything, as long as they're equal */
 
 }
@@ -71,24 +75,20 @@ color : white;
         float: left;
         margin: 1em;
 }*/
-#exit li{
-	float: left;
-	list-style-type: none;
-	padding-right: 0px;
-}
 
 #red{
 	background-color: red;
-	left: 5%;
-	top: 10px;
+	left: 10px;
+	
 }
 #yellow{
 	background-color: yellow;
-	left:7%;
+	left: 25px;
+	
 }
 #green{
 	background-color: green;
-	left: 9%;
+	left: 40px;
 }
 .contact{
 	width: 20px;
@@ -108,11 +108,16 @@ text-align: center;
 	
 }
 .tb5a {
+	position: absolute;
 	border: 0;
 	width:200px;
 	margin-top:3px;
+	right: 150px;
+	top: 39px;
+	background: light gray;
 }
 #search{
-	left: 20px;
+	
+	right: 300px;
 }
 
