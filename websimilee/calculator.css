@@ -1,0 +1,12 @@
+.button{
+	width : 30px;
+	background : red;
+	text-align: center;
+	color: white;
+}
+
+.container{
+	height: 200px;
+	width: 370px;
+	background: black;
+}
