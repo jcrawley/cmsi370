@@ -213,3 +213,16 @@ background-image: -moz-linear-gradient(bottom, rgb(255,132,0) 9%, rgb(250,235,19
 background-image: -webkit-linear-gradient(bottom, rgb(255,132,0) 9%, rgb(250,235,190) 100%);
 background-image: -ms-linear-gradient(bottom, rgb(255,132,0) 9%, rgb(250,235,190) 100%);
 }
+.output{
+	position: fixed;
+	width: 300px;
+	height: 80px;
+	background: white;
+	left:15px;
+	top:20px;
+	/*background-image: linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,213) 57%, rgb(242,245,199) 79%);
+background-image: -o-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,213) 57%, rgb(242,245,199) 79%);
+background-image: -moz-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,213) 57%, rgb(242,245,199) 79%);
+background-image: -webkit-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,213) 57%, rgb(242,245,199) 79%);
+background-image: -ms-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,213) 57%, rgb(242,245,199) 79%);*/
+}
