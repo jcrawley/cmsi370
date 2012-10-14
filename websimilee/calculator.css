@@ -112,3 +112,15 @@
 	top:120px;
 	left:255px;
 }
+#zero{
+	width: 132px;
+	top: 435px;
+	left: 15px;
+}
+#equal{
+	position: absolute;
+	height: 85px;
+	left:255px;
+	top: 380px;
+	bottom: 0px;
+}
