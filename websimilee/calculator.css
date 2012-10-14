@@ -176,7 +176,7 @@ background-image: -webkit-linear-gradient(top, rgb(97,97,97) 0%, rgb(0,0,0) 94%)
 background-image: -ms-linear-gradient(top, rgb(97,97,97) 0%, rgb(0,0,0) 94%);
 }
 #dot{
-	top: 435px;
+	top: 445px;
 	left: 550px;
 }
 #mult{
@@ -194,7 +194,7 @@ background-image: -ms-linear-gradient(bottom, rgb(166,149,115) 80%, rgb(214,210,
 }
 #zero{
 	width: 132px;
-	top: 435px;
+	top: 445px;
 	left:390px;
 	background-image: linear-gradient(top, rgb(97,97,97) 0%, rgb(0,0,0) 94%);
 background-image: -o-linear-gradient(top, rgb(97,97,97) 0%, rgb(0,0,0) 94%);
@@ -203,7 +203,7 @@ background-image: -webkit-linear-gradient(top, rgb(97,97,97) 0%, rgb(0,0,0) 94%)
 background-image: -ms-linear-gradient(top, rgb(97,97,97) 0%, rgb(0,0,0) 94%);
 }
 #equal{
-	height: 85px;
+	height: 95px;
 	left:630px;
 	top: 380px;
 	bottom: 0px;
@@ -229,8 +229,104 @@ background-image: -ms-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,
 }
 #eSign{
 	position: fixed;
-	top: 440px;
+	top: 450px;
 	left: 655px;
 	color: white;
 	font-size: 20px;
+}
+#sec{
+	left: 15px;
+	top:120px;	
+}
+#recipricol{
+	left:15px;
+	top: 185px;
+}
+#factorial{
+	left: 15px;
+	top: 250px;
+}
+#sin{
+	left: 15px;
+	top: 315px;
+}
+#sinh{
+	left: 15px;
+	top: 380px;
+}
+#deg{
+	left: 15px;
+	top: 445px;
+}
+#left_par{
+	left: 95px;
+	top: 120px;
+}
+#squared{
+	left: 95px;
+	top: 185px;
+}
+#sqrt{
+	left:95px;
+	top: 250px;
+}
+#cos{
+	left:95px;
+	top:315px;
+}
+#cosh{
+	left: 95px;
+	top:380px;
+}
+#pi{
+	left: 95px;
+	top: 445px;
+}
+#right_par{
+	left:175px;
+	top: 120px;
+}
+#cube{
+	left:175px;
+	top: 185px;
+}
+#xrooty{
+	left: 175px;
+	top: 250px;
+}
+#tan{
+	left: 175px;
+	top: 315px;
+}
+#tanh{
+	left: 175px;
+	top: 380px;
+}
+#EE{
+	left: 175px;
+	top: 445px;
+}
+#percent{
+	left:255px;
+	top: 120px;
+}
+#yx{
+	left:255px;
+	top: 185px;
+}
+#log{
+	left:255px;
+	top: 250px;
+}
+#ln{
+	left: 255px;
+	top: 315px;
+}
+#ex{
+	left:255px;
+	top: 380px;
+}
+#Rand{
+	left:255px;
+	top: 445px;
 }
