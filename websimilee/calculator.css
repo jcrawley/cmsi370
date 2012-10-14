@@ -330,3 +330,20 @@ background-image: -ms-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,
 	left:255px;
 	top: 445px;
 }
+.littlex{
+	position: fixed;
+	color: white;
+	font-size: 10px;
+}
+#xroot{
+	left: 195px;
+	top: 250px;
+}
+#xpower{
+	left: 290px;
+	top: 190px;
+}
+#etothex{
+	left: 290px;
+	top: 380px;
+}
