@@ -106,6 +106,17 @@ div{
 	background-color: light gray;
 	border: none;
 }
+#cross{
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 190px;
+	top:0px;
+	height: 25px;
+	width: 25px;
+	background-color: black;
+	text-align: center;
+}
 
 
 #background{
