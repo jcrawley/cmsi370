@@ -9,7 +9,9 @@
 	top: 450px;
 	z-index: 1;
 }
-
+ul{
+	list-style: none;
+}
 div{
 	color : white;
 }
@@ -51,6 +53,8 @@ div{
 	opacity: 0.7;
 	width: 280px;
 	overflow: auto;
+	padding: 0px;
+	margin: 0px;
 }
 .circle{
   position: fixed;
@@ -93,8 +97,14 @@ div{
 #all{
 	text-align: center;
 }
-#searchbar{
+#search{
 	
+	top: 66px;
+	left: 400px;
+	width: 188px;
+	height: 15px;
+	background-color: light gray;
+	border: none;
 }
 
 
