@@ -6,15 +6,14 @@
 }
 .container{
 	background-image: url('background.png');
-	height: 500px;
-	width: 600px;
+	height: 475px;
+	width: 575px;
 }
 #bar{
 	position: fixed;
 	left: 350px;
 	top: 450px;
 	z-index: 1;
-	
 }
 
 div{
@@ -33,9 +32,9 @@ div{
 	position: fixed;
 	top: 20px;
 	left: 350px;
-	width: 260px;
-	height: 490px;
-	background-color: black;
+	width: 230px;
+	height: 460px;
+	background-color: rgb(21,21,21);
 	opacity: 0.8;
 }
 
@@ -52,10 +51,11 @@ div{
 }
 #list{
 	position: fixed;
-	top: 17px;
+	top: 25px;
 	left: 325px;
 	height: 425px;
 	opacity: 0.7;
+	width: 250px;
 	overflow: auto;
 }
 .circle{
@@ -99,23 +99,13 @@ div{
 #all{
 	text-align: center;
 }
-.tb5 {
-	background: url(searchbar.png) no-repeat top left;
-	height: 60px;
-	width: 270px;
-	
-}
-.tb5a {
+#searchbar{
 	position: fixed;
-	border: 0;
-	width:200px;
-	margin-top:3px;
-	right: 150px;
-	top: 39px;
-	background: light gray;
+	left: 360px;
 }
 #search{
-	left: 470px;
+	position: fixed;
+	left: 360px;
 }
 
 #background{
