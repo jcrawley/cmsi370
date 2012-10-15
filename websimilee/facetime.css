@@ -7,7 +7,7 @@
 	position: fixed;
 	left: 350px;
 	top: 450px;
-	z-index: 1;
+	z-index: 2;
 }
 ul{
 	list-style: none;
@@ -23,6 +23,10 @@ div{
 	background: black;
 	padding-left: 0px;
 	padding-right: 0px;
+	 -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 }
 #contacts{
 	position: fixed;
@@ -51,7 +55,7 @@ div{
 	left: 325px;
 	height: 425px;
 	opacity: 0.7;
-	width: 280px;
+	width: 290px;
 	overflow: auto;
 	padding: 0px;
 	margin: 0px;
@@ -132,4 +136,10 @@ body{
 #background{
 	width:70%;
 	height: 90%;
+}
+#facetime{
+	z-index: 1;
+	position: fixed;
+	left: 300px;
+	top:5px;
 }
