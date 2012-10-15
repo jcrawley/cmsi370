@@ -4,30 +4,27 @@
         float: left;
         margin: 1em;
 }
-
-
-body{
-	/*background-image: url('background.png');*/
-	background-color: white;
-	height: 100%;
-	width: 100%;
-	
+.container{
+	background-image: url('background.png');
+	height: 500px;
+	width: 400px;
 }
-
-
-#navigation li 
-{
-display: inline;
-list-style-type: none;
-padding-right: 0px;
+#navigation{
+	display: inline;
+	list-style-type: none;
+	padding-right: 0px;
+	position:fixed;
+	left: 400px;
+	top: 450px;
+	z-index: 1;
 }
 
 div{
-color : white;
+	color : white;
 }
 .rectangle {
 	position: fixed;
-	width: 100%;
+	width: 500px;
 	height: 20px;
 	top: 1px;
 	background: black;
@@ -55,7 +52,7 @@ color : white;
 #list{
 	position: fixed;
 	top: 17px;
-	right: 350px;
+	right: 300px;
 	height: 475px;
 	opacity: 0.7;
 	overflow: auto;
