@@ -10,7 +10,7 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=0 ); /* IE6-9 */
 	text-align: center;
 	color: white;
-	font-size: 18px;
+	font-size: 24px;
 	font-family:"Arial";
 	padding: 3px;
 	border-radius: 5px 10px 5px 10px / 10px 5px 10px 5px;
@@ -25,6 +25,7 @@
 	height: 500px;
 	width: 635px;
 	background: black;
+	background-image: url('dark-background.jpeg');
 }
 
 #one{
