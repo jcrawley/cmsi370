@@ -331,6 +331,7 @@ background-image: -ms-linear-gradient(bottom, rgb(250,248,205) 13%, rgb(222,222,
 #Rand{
 	left:255px;
 	top: 445px;
+	font-size:22px;
 }
 .littlex{
 	position: fixed;

@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Positives of Skeuomorphism}{3}
+\contentsline {section}{\numberline {3}Arguments against Skeuomorphism}{4}
+\contentsline {subsection}{\numberline {3.1}The classic Desktop and Operating System Startup Screens}{4}
+\contentsline {subsection}{\numberline {3.2}Skeuomorphism and Usability Metrics}{5}
+\contentsline {subsection}{\numberline {3.3}Skeuomorphism and Evolutionary Design}{5}
+\contentsline {section}{\numberline {4}Conclusion}{5}
