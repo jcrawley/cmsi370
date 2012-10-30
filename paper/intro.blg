@@ -4,50 +4,59 @@ The top-level auxiliary file: intro.aux
 The style file: unsrt.bst
 Database file #1: intro.bib
 Warning--entry type for "Gessler" isn't style-file defined
---line 28 of file intro.bib
-Warning--I didn't find a database entry for "OED"
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "Former-UI"
-Warning--I didn't find a database entry for "FastCompany3"
-You've used 2 entries,
+--line 27 of file intro.bib
+Warning--entry type for "Former-UI" isn't style-file defined
+--line 44 of file intro.bib
+I was expecting a `,' or a `}'---line 63 of file intro.bib
+ :  
+ :  publisher = {FastCompany},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 74 of file intro.bib
+ :  
+ :  publisher = {Gizmodo},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty author in oed
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            461 strings with 3714 characters,
-and the built_in function-call counts, 265 in all, are:
-= -- 18
-> -- 8
+            475 strings with 4056 characters,
+and the built_in function-call counts, 756 in all, are:
+= -- 57
+> -- 21
 < -- 0
-+ -- 4
-- -- 2
-* -- 7
-:= -- 49
-add.period$ -- 5
-call.type$ -- 2
-change.case$ -- 2
++ -- 11
+- -- 5
+* -- 26
+:= -- 128
+add.period$ -- 15
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 13
-empty$ -- 33
-format.name$ -- 2
-if$ -- 56
+cite$ -- 7
+duplicate$ -- 42
+empty$ -- 93
+format.name$ -- 5
+if$ -- 165
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 12
-num.names$ -- 2
-pop$ -- 8
+int.to.str$ -- 6
+missing$ -- 4
+newline$ -- 30
+num.names$ -- 5
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 10
+skip$ -- 24
 stack$ -- 0
 substring$ -- 0
-swap$ -- 2
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 2
-width$ -- 3
-write$ -- 19
-(There were 5 warnings)
+warning$ -- 1
+while$ -- 5
+width$ -- 7
+write$ -- 55
+(There were 2 error messages)
