@@ -9,28 +9,33 @@ Anonymous.
 \newblock A former iphone ui designer defends apple’s fake-leather design
   philosophy, September 2012.
 
-\bibitem{Gessler}
-Nicholas Gessler.
-\newblock Skeuomorphs and cultural algorithms.
-
-\bibitem{FastCompany3}
-Kliff Kuang.
-\newblock Will apple’s tacky software-design philosophy cause a revolt?
-\newblock {\em Fast Company}, September 2012.
-
 \bibitem{Gizmodo}
 Sam Biddle.
 \newblock Ugh. god. why is apple making everything look like an ugly wild west?
 \newblock {\em Gizmodo}, October 2011.
+
+\bibitem{Gessler}
+Nicholas Gessler.
+\newblock Skeuomorphs and cultural algorithms.
 
 \bibitem{Hobbs}
 Tom Hobbs.
 \newblock Can we please move past apple’s silly, faux-real uis?
 \newblock {\em Fast Company}, May 2012.
 
+\bibitem{FastCompany3}
+Kliff Kuang.
+\newblock Will apple’s tacky software-design philosophy cause a revolt?
+\newblock {\em Fast Company}, September 2012.
+
 \bibitem{ipod}
 Farhad Manjoo.
 \newblock It smelled something like pizza.
 \newblock {\em Slate}, September 2012.
+
+\bibitem{wired}
+Jakob Nielsen.
+\newblock Clive thompson on analog designs in the digital age.
+\newblock {\em Wired}, 20(2), February 2012.
 
 \end{thebibliography}
