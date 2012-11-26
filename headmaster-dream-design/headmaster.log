@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 NOV 2012 09:01
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 NOV 2012 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,59 +294,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [2]
 
-LaTeX Warning: File `calculator.jpeg' not found on input line 69.
-
-
-! Package pdftex.def Error: File `calculator.jpeg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.69 ...ludegraphics[width=2.5in]{calculator.jpeg}
-                                                  
-? 
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.71 \caption
-             {iPhone calculator compared to a physical calculator}
-? r
-OK, entering \nonstopmode...
-! Too many }'s.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.73 \end{figure}
-                 
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \end{figure}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.73 \end{figure}
-                 
-Things are pretty mixed up, but I think the worst is over.
-
-
-LaTeX Warning: Citation `Former-UI' on page 3 undefined on input line 77.
+LaTeX Warning: Citation `Former-UI' on page 3 undefined on input line 69.
 
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
@@ -355,13 +303,13 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
 
-LaTeX Warning: Citation `Gessler' on page 3 undefined on input line 77.
+LaTeX Warning: Citation `Gessler' on page 3 undefined on input line 69.
 
 
-LaTeX Warning: Citation `FastCompany3' on page 3 undefined on input line 77.
+LaTeX Warning: Citation `FastCompany3' on page 3 undefined on input line 69.
 
 
-LaTeX Warning: File `ipadBook.jpeg' not found on input line 80.
+LaTeX Warning: File `ipadBook.jpeg' not found on input line 72.
 
 
 ! Package pdftex.def Error: File `ipadBook.jpeg' not found.
@@ -370,22 +318,21 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \includegraphics[width=2.5in]{ipadBook.jpeg}
+l.72 \includegraphics[width=2.5in]{ipadBook.jpeg}
                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? r
+OK, entering \nonstopmode...
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
+[3]
 
-LaTeX Warning: Citation `Gizmodo' on page 3 undefined on input line 91.
+LaTeX Warning: Citation `Gizmodo' on page 4 undefined on input line 83.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 95.
+(Font)              <7> on input line 87.
 
-LaTeX Warning: File `metro.jpeg' not found on input line 97.
+LaTeX Warning: File `metro.jpeg' not found on input line 89.
 
 
 ! Package pdftex.def Error: File `metro.jpeg' not found.
@@ -394,7 +341,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \includegraphics[width = 2.5in]{metro.jpeg}
+l.89 \includegraphics[width = 2.5in]{metro.jpeg}
                                                  & \includegraphics[width = ...
 
 Using draft setting for this image.
@@ -402,7 +349,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `pc-desktop.jpeg' not found on input line 97.
+LaTeX Warning: File `pc-desktop.jpeg' not found on input line 89.
 
 
 ! Package pdftex.def Error: File `pc-desktop.jpeg' not found.
@@ -411,7 +358,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...degraphics[width = 2.5in]{pc-desktop.jpeg}
+l.89 ...degraphics[width = 2.5in]{pc-desktop.jpeg}
                                                    \\\hline
 Using draft setting for this image.
 Try typing  <return>  to proceed.
@@ -424,22 +371,21 @@ Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ù in font cmr9!
 
-LaTeX Warning: Citation `Hobbs' on page 3 undefined on input line 105.
+LaTeX Warning: Citation `Hobbs' on page 4 undefined on input line 97.
 
-[3] [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 111.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
 
- (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 111.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+ [4]
+
+LaTeX Warning: Citation `wired' on page 5 undefined on input line 114.
 
 
-LaTeX Warning: Citation `wired' on page 5 undefined on input line 122.
-
-
-LaTeX Warning: File `flipboard.jpeg' not found on input line 125.
+LaTeX Warning: File `flipboard.jpeg' not found on input line 117.
 
 
 ! Package pdftex.def Error: File `flipboard.jpeg' not found.
@@ -448,14 +394,14 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...ludegraphics[width=2.5in]{flipboard.jpeg}
+l.117 ...ludegraphics[width=2.5in]{flipboard.jpeg}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `lockitron.jpeg' not found on input line 133.
+LaTeX Warning: File `lockitron.jpeg' not found on input line 125.
 
 
 ! Package pdftex.def Error: File `lockitron.jpeg' not found.
@@ -464,32 +410,35 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ...ludegraphics[width=2.5in]{lockitron.jpeg}
+l.125 ...ludegraphics[width=2.5in]{lockitron.jpeg}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation `ipod' on page 5 undefined on input line 140.
+LaTeX Warning: Citation `ipod' on page 5 undefined on input line 132.
 
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
 No file headmaster.bbl.
-[5] [6] [7] (./headmaster.aux)
+[5] [6] (./headmaster.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 2382 strings out of 493488
- 34180 string characters out of 3141326
- 101614 words of memory out of 3000000
- 5658 multiletter control sequences out of 15000+200000
- 9487 words of font info for 34 fonts, out of 3000000 for 9000
+ 2379 strings out of 493488
+ 34151 string characters out of 3141326
+ 99614 words of memory out of 3000000
+ 5657 multiletter control sequences out of 15000+200000
+ 9320 words of font info for 33 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,10n,23p,1156b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,23p,1156b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
@@ -498,12 +447,11 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
 texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on headmaster.pdf (7 pages, 128366 bytes).
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on headmaster.pdf (6 pages, 120476 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
