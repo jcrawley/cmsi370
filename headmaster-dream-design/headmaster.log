@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 NOV 2012 09:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 NOV 2012 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,160 +285,62 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./headmaster.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 4.
+(Font)              <9> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 4.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write3
 \openout3 = `headmaster.toc'.
 
  [2]
-
-LaTeX Warning: Citation `Former-UI' on page 3 undefined on input line 69.
-
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-
-LaTeX Warning: Citation `Gessler' on page 3 undefined on input line 69.
-
-
-LaTeX Warning: Citation `FastCompany3' on page 3 undefined on input line 69.
-
-
-LaTeX Warning: File `ipadBook.jpeg' not found on input line 72.
-
-
-! Package pdftex.def Error: File `ipadBook.jpeg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 \includegraphics[width=2.5in]{ipadBook.jpeg}
-                                                 
-? r
-OK, entering \nonstopmode...
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
-[3]
-
-LaTeX Warning: Citation `Gizmodo' on page 4 undefined on input line 83.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 87.
-
-LaTeX Warning: File `metro.jpeg' not found on input line 89.
-
-
-! Package pdftex.def Error: File `metro.jpeg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \includegraphics[width = 2.5in]{metro.jpeg}
-                                                 & \includegraphics[width = ...
-
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `pc-desktop.jpeg' not found on input line 89.
-
-
-! Package pdftex.def Error: File `pc-desktop.jpeg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 ...degraphics[width = 2.5in]{pc-desktop.jpeg}
-                                                   \\\hline
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ú in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ù in font cmr9!
-
-LaTeX Warning: Citation `Hobbs' on page 4 undefined on input line 97.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
- [4]
-
-LaTeX Warning: Citation `wired' on page 5 undefined on input line 114.
-
-
-LaTeX Warning: File `flipboard.jpeg' not found on input line 117.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+ [3]
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
 
 
-! Package pdftex.def Error: File `flipboard.jpeg' not found.
+LaTeX Warning: Citation `Gizmodo' on page 4 undefined on input line 92.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 ...ludegraphics[width=2.5in]{flipboard.jpeg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
 
-
-LaTeX Warning: File `lockitron.jpeg' not found on input line 125.
+LaTeX Warning: Citation `Hobbs' on page 4 undefined on input line 96.
 
 
-! Package pdftex.def Error: File `lockitron.jpeg' not found.
+LaTeX Warning: Citation `wired' on page 4 undefined on input line 113.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 ...ludegraphics[width=2.5in]{lockitron.jpeg}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[4]
 
-
-LaTeX Warning: Citation `ipod' on page 5 undefined on input line 132.
+LaTeX Warning: Citation `ipod' on page 5 undefined on input line 117.
 
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
 No file headmaster.bbl.
-[5] [6] (./headmaster.aux)
+[5] (./headmaster.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2379 strings out of 493488
- 34151 string characters out of 3141326
- 99614 words of memory out of 3000000
- 5657 multiletter control sequences out of 15000+200000
- 9320 words of font info for 33 fonts, out of 3000000 for 9000
+ 2363 strings out of 493488
+ 34012 string characters out of 3141326
+ 100598 words of memory out of 3000000
+ 5648 multiletter control sequences out of 15000+200000
+ 9152 words of font info for 32 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 42i,10n,23p,1156b,290s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,6n,23p,1156b,177s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
@@ -446,12 +348,11 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on headmaster.pdf (6 pages, 120476 bytes).
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on headmaster.pdf (5 pages, 100771 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
