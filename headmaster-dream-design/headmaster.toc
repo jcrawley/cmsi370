@@ -2,8 +2,8 @@
 \contentsline {section}{\numberline {2}Usage Scenarios}{3}
 \contentsline {subsection}{\numberline {2.1}Adding to the Database}{3}
 \contentsline {subsection}{\numberline {2.2}Search}{3}
-\contentsline {section}{\numberline {3}Arguments against Skeuomorphism}{4}
-\contentsline {subsection}{\numberline {3.1}The classic Desktop and Operating System Startup Screens}{4}
+\contentsline {section}{\numberline {3}Rationale}{4}
+\contentsline {subsection}{\numberline {3.1}Strong and Weak Metrics}{4}
 \contentsline {subsection}{\numberline {3.2}Skeuomorphism and Usability Metrics}{4}
 \contentsline {subsection}{\numberline {3.3}Skeuomorphism and Evolutionary Design}{5}
 \contentsline {section}{\numberline {4}Conclusion}{5}
