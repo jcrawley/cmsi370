@@ -23,44 +23,38 @@
     bottom:0;
     right:0;
     border: thin dotted black;
-    width: 8px;
-    height: 8px;
+    width: 12px;
+    height: 12px;
     position: absolute;
+    cursor: se-resize;
 }
 
 .bottomL-highlight {
 	bottom:0;
 	right:5;
 	border: thin dotted black;
-	width: 8px;
-	height: 8px;
+	width: 12px;
+	height: 12px;
 	position: absolute;
+	cursor: sw-resize;
 }
-#mycursor {
- 	cursor: none;
- 	width: 97px;
- 	height: 137px;
- 	background: url("trash.jpg") no-repeat left top;
- 	position: absolute;
- 	display: none;
- 	top: 0;
- 	left: 0;
- 	z-index: 10000;
-}
+
 .upperL-highlight {
 	top:0;
 	left:5;
 	border: thin dotted black;
-	width: 8px;
-	height: 8px;
+	width: 12px;
+	height: 12px;
 	position: absolute;
+	cursor: nw-resize;
 }
 
 .upperR-highlight {
 	top:0;
 	right:0;
 	border: thin dotted black;
-	width: 8px;
-	height: 8px;
+	width: 12px;
+	height: 12px;
 	position: absolute;
+	cursor: ne-resize;
 }

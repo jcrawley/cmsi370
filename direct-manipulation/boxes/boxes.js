@@ -1,4 +1,3 @@
-
 var Boxes = {
     /**
      * Constant for the left mouse button.
@@ -14,7 +13,7 @@ var Boxes = {
             // "this" is Boxes.
             .mousedown(this.startDraw)
             .mousemove(this.trackDrag)
-            
+
             // We conclude drawing on either a mouseup or a mouseleave.
             .mouseup(this.endDrag)
             .mouseleave(this.endDrag);
@@ -65,7 +64,7 @@ var Boxes = {
     trackDrag: function (event) {
         // Don't bother if we aren't tracking anything.
         //alert(printed);
-        if (this.drawingBox) { 
+        if (this.drawingBox) {
             // Calculate the new box location and dimensions.  Note how
             // this might require a "corner switch."
             var newOffset = {
@@ -90,26 +89,26 @@ var Boxes = {
                 left: event.pageX - parent.deltaX,
                 top: event.pageY - parent.deltaY
             })
-           		.offset(newOffset)
+                        .offset(newOffset)
                 .width(Math.abs(event.pageX - this.anchorX))
                 .height(Math.abs(event.pageY - this.anchorY)); ;
             this.resizingBox.width(Math.abs(event.pageX - this.anchorX))
                 .height(Math.abs(event.pageY - this.anchorY));
         } else if (this.movingBox) {
             // Reposition the object.
-            
+
                 this.movingBox.offset({
                     left: event.pageX - this.deltaX,
                     top: event.pageY - this.deltaY
                 });
-               
-                if((((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512)) && !printed){
-                	$(this.movingBox).css({"cursor" :"url(icon_delete_small.png), auto"});
-        		}
-        		else if(((event.pageX - this.deltaX) < 512 ||(event.pageY - this.deltaY) < 512)){
-        			$(this.movingBox).css({"cursor" : "move"});
-        			printed = false;
-        		}
+
+                if((((event.pageX - this.deltaX) > $("#drawing-area").width() ||(event.pageY - this.deltaY) > $("#drawing-area").height())) && !printed){
+                        $(this.movingBox).css({"cursor" :"url(icon_delete_small.png), auto"});
+                        }
+                        else if(((event.pageX - this.deltaX) < $("#drawing-area").width() ||(event.pageY - this.deltaY) < $("#drawing-area").height())){
+                                $(this.movingBox).css({"cursor" : "move"});
+                                printed = false;
+                        }
         }
     },
 
@@ -123,28 +122,28 @@ var Boxes = {
                 .mousemove(Boxes.highlight)
                 .mouseleave(Boxes.unhighlight)
                 .mousedown(Boxes.startMove);
-           
-            
+
+
             // All done.
             this.drawingBox = null;
-        } else if (this.resizingBox) { 
+        } else if (this.resizingBox) {
             // Change state to "not-moving-anything" by clearing out
             // this.movingBox.
             this.resizingBox = null;
             this.movingBox = null;
 
-        } else if (this.movingBox) { 
+        } else if (this.movingBox) {
             // Change state to "not-moving-anything" by clearing out
             // this.movingBox.
-             if(((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512)){ 
-            
-                $(this.movingBox).remove(); 
+             if(((event.pageX - this.deltaX) > $("#drawing-area").width() ||(event.pageY - this.deltaY) > $("#drawing-area").height())){
+             //alert( $("#drawing-area").width() + " " + $("#drawing-area").height());
+                $(this.movingBox).remove();
                 event.stopPropagation();
                 this.movingBox = null;
-            
+
             }
             this.movingBox = null;
-            
+
         }
 
         // In either case, restore the highlight behavior that was
@@ -164,7 +163,7 @@ var Boxes = {
         $(this).find(".bottomL").addClass("bottomL-highlight");
         $(this).find(".upperL").addClass("upperL-highlight");
         $(this).find(".upperR").addClass("upperR-highlight");
-        
+
     },
 
     /**
@@ -197,17 +196,17 @@ var Boxes = {
             // Set the drawing area's state to indicate that it is
             // in the middle of a move.
             parent.Box = jThis;
-           
+
             if(Math.abs(event.pageX - (jThis.position().left + $(this).width())) < 20 && Math.abs(event.pageY - (jThis.position().top + $(this).height())) < 20){
-            	//alert(true);
-            	parent.resizingBox = jThis;
+                //alert(true);
+                parent.resizingBox = jThis;
             }
             else{
-            parent.movingBox = jThis;//get coordinates within drawing area 
+            parent.movingBox = jThis;//get coordinates within drawing area
             }
             parent.deltaX = event.pageX - startOffset.left;
             parent.deltaY = event.pageY - startOffset.top;
-            
+
             Boxes.setupDragState();
 
             // Take away the highlight behavior while the move is
@@ -220,9 +219,9 @@ var Boxes = {
         }
     },
     resize: function (event){
-    	//alert("ran");
-    	width = Math.abs(event.pageX - this.anchorX);
-    	height = Math.abs(event.pageY - this.anchorY);
+        //alert("ran");
+        width = Math.abs(event.pageX - this.anchorX);
+        height = Math.abs(event.pageY - this.anchorY);
     }
 
 };
