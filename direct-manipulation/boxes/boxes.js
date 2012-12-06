@@ -1,3 +1,4 @@
+
 var Boxes = {
     /**
      * Constant for the left mouse button.
@@ -63,6 +64,7 @@ var Boxes = {
      */
     trackDrag: function (event) {
         // Don't bother if we aren't tracking anything.
+        //alert(printed);
         if (this.drawingBox) { 
             // Calculate the new box location and dimensions.  Note how
             // this might require a "corner switch."
@@ -100,9 +102,13 @@ var Boxes = {
                     left: event.pageX - this.deltaX,
                     top: event.pageY - this.deltaY
                 });
-                if(((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512)){
-                	$('#mycursor').show();
-                	$('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
+               
+                if((((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512)) && !printed){
+                	$(this.movingBox).css({"cursor" :"url(icon_delete_small.png), auto"});
+        		}
+        		else if(((event.pageX - this.deltaX) < 512 ||(event.pageY - this.deltaY) < 512)){
+        			$(this.movingBox).css({"cursor" : "move"});
+        			printed = false;
         		}
         }
     },
@@ -117,6 +123,7 @@ var Boxes = {
                 .mousemove(Boxes.highlight)
                 .mouseleave(Boxes.unhighlight)
                 .mousedown(Boxes.startMove);
+           
             
             // All done.
             this.drawingBox = null;
