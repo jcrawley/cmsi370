@@ -100,7 +100,10 @@ var Boxes = {
                     left: event.pageX - this.deltaX,
                     top: event.pageY - this.deltaY
                 });
-            
+                if(((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512)){
+                	$('#mycursor').show();
+                	$('#mycursor').css('left', e.clientX - 20).css('top', e.clientY + 7);
+        		}
         }
     },
 
@@ -126,7 +129,7 @@ var Boxes = {
         } else if (this.movingBox) { 
             // Change state to "not-moving-anything" by clearing out
             // this.movingBox.
-             if(((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512) && confirm("do you want to delete this box")){ 
+             if(((event.pageX - this.deltaX) > 512 ||(event.pageY - this.deltaY) > 512)){ 
             
                 $(this.movingBox).remove(); 
                 event.stopPropagation();

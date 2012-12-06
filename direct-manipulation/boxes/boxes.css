@@ -36,7 +36,17 @@
 	height: 8px;
 	position: absolute;
 }
-
+#mycursor {
+ 	cursor: none;
+ 	width: 97px;
+ 	height: 137px;
+ 	background: url("trash.jpg") no-repeat left top;
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 10000;
+}
 .upperL-highlight {
 	top:0;
 	left:5;
