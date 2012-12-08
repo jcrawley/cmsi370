@@ -10,4 +10,6 @@
 \contentsline {subsection}{\numberline {3.1}E-harmony.com}{3}
 \contentsline {subsection}{\numberline {3.2}Match.com}{3}
 \contentsline {subsection}{\numberline {3.3}ChristianMingle.com}{4}
-\contentsline {section}{\numberline {4}Conclusion}{4}
+\contentsline {section}{\numberline {4}Expectations of Dating Interfaces}{4}
+\contentsline {subsection}{\numberline {4.1}"Designers should make every attempt to reduce the user’s workload by taking advantage of the computer’s capabilities."}{4}
+\contentsline {subsubsection}{\numberline {4.1.1}E-harmony.com}{4}
